@@ -29,7 +29,7 @@
         }
 
         //対象のコンテンツをアクティブ化する
-        $tab.querySelectorAll('[data-content="targetVal"]')[0].style.display = 'block';
+        $tab.querySelectorAll('[data-content="'+ targetVal + '"]')[0].style.display = 'block';
         $nav[targetVal].classList.add(ACTIVE_CLASS);
     };
 
